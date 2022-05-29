@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>About</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="css/owl-carousel.css">
+
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.png">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">More</a>
+                                <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="products.html">More Products</a></li>
+                                </ul>
+                            </li>       
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>About Fleur Botique</h2>
+                        <span>Know more about us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+
+    <!-- ***** Product Area Starts ***** -->
+    <section class="section" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                <div class="left-images">
+                    <img src="images/flower21.jpg" alt="">
+                    <img src="images/flower22.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="right-content">
+                    <h4>Fleur Botique</h4>
+                    <span>Fleur Botique is a flower shop, a place where flowers are retailed. Florists in this shop basically retail cut flowers, floral arrangements, potted plants and artificial flowers. Propelled by affection for flowers and energy about nature, it is our obsession to make creative and noteworthy plant and new flower courses of action. We trust that the best, freshest flowers deliver the most noteworthy presentations. Fleur Botique is glad to give quality flowers and plants to our customers. Our retail premises opened in 2012 and is continously giving you the best service until today.
+                        <br>
+                        <br>
+                    From that point forward, we have bloomed into a full administration flower specialist with both private and corporate customers.
+                    We owe quite a bit of our prosperity to our extraordinary customers who move us to make unique and dazzling structures. Our master staff is here to enable all customers to pick the best flowers and plants for all events and purposes.
+                        <br>
+                        <br>
+                    As it were, we can turn out to be a piece of your unique occasions or improve any home through the flower game plans we make. Also, they are lovely, to say it gently.
+
+                    Be that as it may, our flowers can be far beyond essentially delightful; they can be splendid and brilliant, unobtrusive and fragile, cheering and crucial, quiet and serene, etc. The tremendous adaptability of flower types as well as of feelings they express can’t be denied.
+                    </span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Product Area Ends ***** -->
+    
+ <!-- ***** Footer Start ***** -->
+    <footer>
+                <div class="col-lg-12">
+                    <div class="under-footer">
+                        <p>Copyright © 2022 Fleur Botique. All Rights Reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/accordions.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imgfix.min.js"></script> 
+    <script src="js/slick.js"></script> 
+    <script src="js/lightbox.js"></script> 
+    <script src="js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+
+</html>

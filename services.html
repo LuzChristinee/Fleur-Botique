@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Fleur Botique - Services</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="css/owl-carousel.css">
+
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.png">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">More</a>
+                                <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="products.html">More Products</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Services Area Starts ***** -->
+    <section class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Services</h2>
+                        <span>Come and take a look at the services Fleur Botique offers!</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Delivery</h4>
+                        <p>For your convenience, Fleur Botique has delivery services. Just send us your location and your item will be delivered immediately!</p>
+                        <img src="images/delivery.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Discounts</h4>
+                        <p>Is today your birthday? Well you're lucky because Fleur Botique gives 50% Discount to anyone who's celebrating their big day! Fleur Botique also offers discounts to Senior citizens, PWD's and during the Holidays! </p>
+                        <img src="images/discount.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Promos</h4>
+                        <p>Be our regular customer and avail atleast 5 or more of our products and you will get a chance to avail the promo!</p>
+                        <br>
+                        <img src="images/promo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Services Area Ends ***** -->
+
+
+ <!-- ***** Footer Start ***** -->
+    <footer>
+                <div class="col-lg-12">
+                    <div class="under-footer">
+                        <p>Copyright © 2022 Fleur Botique. All Rights Reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/accordions.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imgfix.min.js"></script> 
+    <script src="js/slick.js"></script> 
+    <script src="js/lightbox.js"></script> 
+    <script src="js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+
+</html>
